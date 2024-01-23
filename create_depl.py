@@ -6,4 +6,5 @@ if __name__ == "__main__":
         entrypoint="test.py:test_flow",
     ).deploy(
         name="my-first-deployment",
+        work_pool_name="my-managed-pool",
     )
